@@ -33,5 +33,9 @@ Team member- Tejashree, Ankita
 File: PhoneAddr.Html
 Team Member- Tejashree, Ankita
 
+6)Upcoming Auction Vehicle Search - UI/Web Service (Medium) (30 points)
+File: Auction.js, auction.css,auction.html
+Team member- Tejashree, Ankita
+
 
 
