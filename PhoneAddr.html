@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Test</title>
+ <script type="text/javascript">
+        function formatPhone(obj) {
+            var numbers = obj.value.replace(/\D/g, ''),
+        char = { 0: '(', 3: ') ', 6: ' - ' };
+            obj.value = '';
+            for (var i = 0; i < numbers.length; i++) {
+                obj.value += (char[i] || '') + numbers[i];
+            }
+        }
+    </script>
+</head>
+
+<body>
+<form name="frm" onSubmit="return validate();">
+Phone Number <input type="text" name="sPhn" id="t1" onblur="formatPhone(t1)"/><br>
+Address <input type="Address" name="sAdd" /><br>
+<input type="submit" name="goTo" value="Submit" onclick=""/>
+</form>
+</body>
+</html>
